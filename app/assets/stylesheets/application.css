@@ -15,3 +15,36 @@
  *= require foundation_and_overrides
 
  */
+
+body {
+  background-color: #299145;
+}
+
+.primary-weather-box {
+  margin-left: 20px;
+  margin-top: 100px;
+  float: left;
+  font-style: oblique;
+  
+}
+
+#primary-weather-box {
+  height: 200px;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.body-boxes {
+  float: right;
+  margin-right: 300px;
+}
+.head-box {
+  height: 60px;
+  width: 80px;
+  border-radius: 4px;
+}
+.box-label {
+  font-size: 10px;
+  font-style: oblique;
+  font-weight: bold;
+}
