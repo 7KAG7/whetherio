@@ -19,16 +19,17 @@
 body {
   background-color: #144f09;
 }
+
 #index-title {
   color: #999421;
   text-align: center;
 }
+
 .primary-weather-box {
   margin-left: 20px;
   margin-top: 100px;
   float: left;
   font-style: oblique;
-
 }
 
 #primary-weather-box {
@@ -36,28 +37,35 @@ body {
   width: 600px;
   border-radius: 8px;
 }
+
 #weather-box-title {
   color: #999421;
 }
+
 .nav-bar-title {
   color: #999421;
 }
+
 #top-bar {
   color: #7fa178;
 }
+
 .right {
   color: #999421;
 }
+
 .body-boxes {
   float: right;
   margin: auto;
 
 }
+
 .head-box {
   height: 60px;
   width: 80px;
   border-radius: 4px;
 }
+
 .box-label {
   font-size: 10px;
   font-style: oblique;
