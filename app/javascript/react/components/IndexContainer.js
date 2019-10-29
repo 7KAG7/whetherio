@@ -7,6 +7,7 @@ const IndexContainer = props => {
 
   return (
     <div>
+      <h1 id="index-title">Weather and What to Wear</h1>
       <div>
         <WeatherBoxContainer/>
       </div>
