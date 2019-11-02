@@ -12,6 +12,6 @@ describe("WeatherBoxContainer", () => {
   )
 
   it("should render a box with a title of Current Condtions", () => {
-    expect(wrapper.text(<div><h4>Current Condtions</h4></div>)).toBeTruthy()
+    expect(wrapper.text(<div>Current Condtions</div>)).toBeTruthy()
   })
 })
