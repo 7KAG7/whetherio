@@ -15,3 +15,126 @@
  *= require foundation_and_overrides
 
  */
+
+body {
+  height: auto;
+  width: auto;
+  background-color: #99ffcc;
+  background-image: url(./wawa.jpg);
+  background-size: cover;
+
+}
+
+
+
+#index-title {
+  color: #999421;
+  text-align: center;
+  font-family: lombok;
+}
+
+.primary-weather-box {
+  margin-left: 20px;
+  margin-top: 100px;
+  float: left;
+  font-style: oblique;
+  font-family: lombok;
+}
+
+#primary-weather-box {
+  height: 280px;
+  width: 240px;
+  border-radius: 8px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: lombok;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ff9900;
+  text-align: left;
+}
+
+#weather-box-title {
+  color: #999421;
+  font-family: lombok;
+}
+
+.nav-bar-title {
+  font-family: lombok;
+  color: #999421;
+}
+
+
+#top-bar {
+  color: #999421;
+  background-color: #7FDB;
+  opacity: 0.5;
+}
+#top-bar:hover {
+  color: #999421;
+  background-color: #7FDB;
+  opacity: 1;
+}
+
+.top_bar_section {
+  font-family: lombok;
+  background-color:#7FDB
+  color: #999421;
+  opacity: 0.5;
+}
+
+.top_bar_section:hover {
+  font-family: lombok;
+  background-color:#7FDB
+  color: #999421;
+  opacity: 1;
+}
+
+.field {
+  color: #999421;
+}
+
+#new_user {
+  color: #999421;
+}
+
+.right {
+  color: #999421;
+}
+
+#log_in_form {
+  color: #999421;
+}
+
+.body-boxes {
+  justify-content: center;
+}
+
+#body_box {
+
+}
+#weather_box {
+
+}
+
+#dark_sky {
+  font-size: 2px;
+}
+.head-box {
+  height: 60px;
+  width: 80px;
+  border-radius: 4px;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 10px #000000;
+}
+
+.box-label {
+  font-size: 10px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #999421;
+}
