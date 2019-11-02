@@ -7,13 +7,14 @@ const IndexContainer = props => {
 
   return (
     <div>
-      <h1 id="index-title">Weather and What to Wear</h1>
-      <div>
+      <h1 id="index-title">Weather & What to Wear</h1>
+      <div id="weather_box">
         <WeatherBoxContainer/>
       </div>
-      <div>
+      <div id="body_box">
         <BodyBoxContainer/>
       </div>
+      <h6 id="dark_sky">https://darksky.net/poweredby/</h6>
     </div>
   )
 }
