@@ -26,6 +26,11 @@
     "redbox-react": "1.6.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "webpack-dev-server": "^3.1.11",
+    "webpack-cli": "^2.0.10",
+>>>>>>> ae0f2ec541d5af4a607359ce470989b1722c84be
     "babel-jest": "^24.9.0",
     "enzyme": "~3.10.0",
     "enzyme-adapter-react-16": "~1.14.0",
