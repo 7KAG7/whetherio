@@ -31,7 +31,7 @@ const WeatherBoxContainer = props => {
   return (
     <div>
       <h3 htmlFor="primary-weather grid-x medium-6" id="weather-box-title">Todays Weather:</h3>
-        <div id="primary-weather-box">
+        <div id="current-weather-box">
           <div>Current Condtions {currentWeather.summary} </div>
           <div>Temperature: {currentWeather.temperature}</div>
           <div>Humidity: {currentWeather.humidity}</div>
