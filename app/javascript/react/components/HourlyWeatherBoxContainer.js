@@ -1,8 +1,8 @@
 import React, { useState, useEffect }  from "react"
-
+import HourlyTile from "./HourlyTile"
 
 const HourlyWeatherBoxContainer = props => {
-  const [currentHourlyWeather, setCurrentHourlyWeather] = useState ("")
+  const [currentHourlyWeather, setCurrentHourlyWeather] = useState ([])
 
   useEffect(() => {
     fetch('api/v1/weathers')
@@ -10,26 +10,26 @@ const HourlyWeatherBoxContainer = props => {
       return response.json()
     })
     .then(fetchedHourlyWeather => {
-      let getHourlyWeather = fetchedHourlyWeather.hourly
-      setCurrentHourlyWeather(getHourlyWeather)
+      setCurrentHourlyWeather(fetchedHourlyWeather.hourly.data)
     })
   }, [])
-
-  // const hourly_weather = currentHourlyWeather.hourly.data((hourly) => {
-  //   debugger
-  //   return (
-  //     <div className="hour-one" key={hourly.time}>
-  //       <div>12:00-1:00am: {summary} temp: {temperature} chance of rain: {precipProbability}</div>
-  //     </div>
-  //   )
-  // })
-
-
+console.log(currentHourlyWeather);
+  const hourly = currentHourlyWeather.map((hour) => {
+    return(
+      <HourlyTile
+        key={hour.id}
+        time={hour.time}
+        currently={hour.currently}
+        temperature={hour.temperature}
+        summary={hour.summary}
+      />
+    )
+  })
   return (
     <div>
       <h3 htmlFor="primary-weather" id="weather-box-title">Hourly Conditions:</h3>
         <div id="hourly-weather-box">
-          <div>Outlook: {currentHourlyWeather.summary} </div>
+          <div>{hourly}</div>
         </div>
     </div>
   )
