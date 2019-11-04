@@ -10,15 +10,15 @@ const IndexContainer = props => {
     <div>
       <h1 id="index-title">Weather & What to Wear</h1>
         <div className="index-boxes grid-x">
-          <div className="weather-boxes large-6 medium-8 small-6">
+          <div className="weather-boxes large-4 medium-4 small-5">
             <div className="current_box">
               <WeatherBoxContainer />
-            <div className="hourly_box">
+            </div>
+            <div className="hourly_box align-right">
               <HourlyWeatherBoxContainer />
             </div>
-          </div>
         </div>
-          <div className="body-box align-center large-4 medium-4 small-6">
+          <div className="body-box align-center large-4 medium-4 small-2">
               <BodyBoxContainer />
           </div>
         </div>

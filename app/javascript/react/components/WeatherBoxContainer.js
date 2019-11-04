@@ -27,7 +27,6 @@ const WeatherBoxContainer = props => {
       setCurrentWeather(getWeather)
     })
   }, [])
-
   return (
     <div>
       <h3 htmlFor="primary-weather grid-x medium-6" id="weather-box-title">Todays Weather:</h3>
