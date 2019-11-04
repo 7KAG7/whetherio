@@ -83,12 +83,12 @@ body {
 
 #top-bar {
   color: #999421;
-  background-color: #7FDB;
+  background-color: #7FDBff;
   opacity: 0.5;
 }
 #top-bar:hover {
   color: #999421;
-  background-color: #7FDB;
+  background-color: #7FDBff;
   opacity: 1;
 }
 
@@ -101,7 +101,7 @@ body {
 
 .top_bar_section:hover {
   font-family: lombok;
-  background-color:#7FDB
+  background-color:#7FDBff;
   color: #999421;
   opacity: 1;
 }
