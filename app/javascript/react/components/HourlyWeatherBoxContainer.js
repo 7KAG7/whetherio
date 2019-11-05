@@ -25,6 +25,7 @@ console.log(currentHourlyWeather);
       />
     )
   })
+
   return (
     <div>
       <h3 htmlFor="primary-weather" id="weather-box-title">Hourly Conditions:</h3>

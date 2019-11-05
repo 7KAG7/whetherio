@@ -5,7 +5,7 @@ const HourlyTile = props => {
 
   return (
     <div>
-      <div>{props.time} {props.temperature}F {props.summary}</div>
+      <div>Time: {props.time} Temp: {props.temperature}F {props.summary}</div>
     </div>
   )
 }
