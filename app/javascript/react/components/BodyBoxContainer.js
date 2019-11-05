@@ -142,7 +142,7 @@ const BodyBoxContainer = props => {
   //     />
   //   )
   // })
-  <link href="https://www.amazon.com/Lindo-Trucker-Hat-Outdoors-Collection/dp/B06WV7411J/ref=as_li_ss_il?ac_md=3-3-bWVucyB0cnVja2VyIGhhdHM=-ac_d_rm&crid=1E1RU7O0276DT&keywords=mens+hats&pd_rd_i=B06WV7411J&pd_rd_r=f3d69428-3bdf-48f6-b1e2-33cc78f8329d&pd_rd_w=UKSZ3&pd_rd_wg=zUyhw&pf_rd_p=ed481207-4bea-4e19-bbad-73ed40fdc292&pf_rd_r=2036VZS0V00P12F7ABHQ&psc=1&qid=1572964237&sprefix=mens+hats,aps,213&linkCode=li1&tag=whetherio-20&linkId=dea5d16123ae54495de201db530a850e&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B06WV7411J&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=whetherio-20&language=en_US&l=li1&o=1&a=B06WV7411J" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 
 
 
@@ -150,17 +150,23 @@ const BodyBoxContainer = props => {
     <div>
     <div className="body-boxes grid-x medium-6">
       <div type="text" className="body-box">
-
+        <HeadTile />
       </div>
     </div>
     <div className="body-boxes grid-x medium-6">
-      <div type="text" className="body-box"></div>
+      <div type="text" className="body-box">
+        <TorsoTile />
+      </div>
     </div>
     <div className="body-boxes grid-x medium-6">
-      <div type="text" className="body-box"></div>
+      <div type="text" className="body-box">
+        <LegsTile />
+      </div>
     </div>
     <div className="body-boxes grid-x medium-6">
-      <div type="text" className="body-box"></div>
+      <div type="text" className="body-box">
+        <FootwearTile />
+      </div>
     </div>
   </div>
   )
