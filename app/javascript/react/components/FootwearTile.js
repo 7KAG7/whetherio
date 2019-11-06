@@ -3,6 +3,123 @@ import React, { useState, useEffect }  from "react"
 
 const FootwearTile = props => {
 
+  //add waiting to load thing
+
+  // const footWear = (() => {
+  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //       //add hiwaiian shirt
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === >80 && props.summary.contains("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //light rain coat
+  //       </div>
+  //     )
+  //   }
+  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //       //light rain coat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === >80 && props.summary.contains("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //trucker hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //regular hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //regular hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //heavy knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === <29 && props.summary === ("Snow")) {
+  //     return (
+  //       <div>
+  //         //waterproof insulated hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //heavy knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else (users.gender === female && props.temp === <29 && props.summary === ("Snow")) {
+  //     return (
+  //       <div>
+  //         //waterproof insulated hat
+  //       </div>
+  //     )
+  //   }
+  // })
+
   return (
     <div>
       <a target="_blank"  href="https://www.amazon.com/gp/product/B005FPU1VS/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B005FPU1VS&linkCode=as2&tag=whetherio-20&linkId=e2ae29d5578dc91c0fc7f957bea60c14">
