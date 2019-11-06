@@ -1,7 +1,124 @@
 import React, { useState, useEffect }  from "react"
-
+import HourlyTile from "./HourlyTile"
 
 const HeadTile = props => {
+
+  //add waiting to load thing
+
+  // const headwear = (() => {
+  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //       //add sunglasses
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === >80 && props.summary.contains("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //trucker hat
+  //       </div>
+  //     )
+  //   }
+  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //       //add sunglasses
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === >80 && props.summary.contains(("Rain" || Drizzle"))) {
+  //     return (
+  //       <div>
+  //         // womans hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //regular hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //regular hat || headband
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary === ("Rain" || Drizzle")) {
+  //     return (
+  //       <div>
+  //         //womans purse umbrella
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //heavy knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === male && props.temp === <29 && props.summary === ("Snow")) {
+  //     return (
+  //       <div>
+  //         //waterproof insulated hat
+  //       </div>
+  //     )
+  //   }
+  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //     return (
+  //       <div>
+  //         //heavy knit hat
+  //       </div>
+  //     )
+  //   }
+  //   else (users.gender === female && props.temp === <29 && props.summary === ("Snow")) {
+  //     return (
+  //       <div>
+  //         //waterproof insulated hat
+  //       </div>
+  //     )
+  //   }
+  // })
 
   return (
     <div>

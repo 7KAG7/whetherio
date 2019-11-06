@@ -13,7 +13,7 @@ const HourlyWeatherBoxContainer = props => {
       setCurrentHourlyWeather(fetchedHourlyWeather.hourly.data)
     })
   }, [])
-console.log(currentHourlyWeather);
+
   const hourly = currentHourlyWeather.map((hour) => {
     return(
       <HourlyTile
