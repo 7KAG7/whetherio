@@ -10,9 +10,9 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ *= require foundation_and_overrides
  *= require_tree .
  *= require_self
- *= require foundation_and_overrides
 
  */
 
@@ -20,8 +20,6 @@ body {
   height: auto;
   width: auto;
   background-color: #003311;
-  /* background-image: url(./wawa.jpg);
-  background-size: cover; */
 }
 
 #index-title {
@@ -29,14 +27,6 @@ body {
   text-align: center;
   font-family: lombok;
 }
-
-/* .primary-weather-box {
-  margin-left: 20px;
-  margin-top: 100px;
-  float: left;
-  font-style: oblique;
-  font-family: lombok;
-} */
 
 .current_box {
   height: auto;
