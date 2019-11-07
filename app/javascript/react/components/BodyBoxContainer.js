@@ -17,9 +17,10 @@ const BodyBoxContainer = props => {
     })
     .then(hourlyWeather => {
       setCurrentHourlyBody(hourlyWeather.hourly.data)
+      debugger
     })
   }, [])
-console.log(currentHourlyBody);
+
   const hourlyHead = currentHourlyBody.map((body) => {
     return(
       <HeadTile
