@@ -6,7 +6,7 @@ const LegsTile = props => {
   //add waiting to load thing
 
   // const legWear = (() => {
-  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //       //add shorts
@@ -20,7 +20,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //       //ask the girls
@@ -34,7 +34,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //mens pants
@@ -48,7 +48,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //ask the girls
@@ -62,7 +62,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //mens pants
@@ -76,7 +76,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //ask the girls
@@ -90,7 +90,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //insulated pants, base layer
@@ -104,7 +104,7 @@ const LegsTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //heavy knit hat

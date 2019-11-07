@@ -46,7 +46,6 @@ body {
   padding: 1rem;
   margin-left: 2rem;
   margin-right: 1rem;
-
 }
 
 .hourly_box {
@@ -57,15 +56,26 @@ body {
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
-  background-image: url("light_rain.jpeg");
+  background-image: url("wawa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: lombok;
   font-weight: 400;
   font-size: 14px;
-  color: #ff9900;
+
   text-align: left;
   padding: 1rem;
+}
+
+.hourly_data {
+  animation: 10s linear infinite;
+  transform: translate3d(0, 0, 0);
+    color: #ff9900;
+}
+
+@keyframes hourly_data {
+  0%    { left: 0; }
+ 100%  { left: -200%; }
 }
 
 #weather-box-title {

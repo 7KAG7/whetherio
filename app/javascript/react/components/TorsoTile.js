@@ -6,7 +6,7 @@ const TorsoTile = props => {
   //add waiting to load thing
 
   // const torsoWear = (() => {
-  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //   if (users.gender === male && props.temp === >80 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //       //add hiwaiian/golf shirt
@@ -20,7 +20,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy")) {
+  //   if (users.gender === female && props.temp === >80 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //       //light blouse or sundress
@@ -34,7 +34,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //longsleeve shirt
@@ -48,7 +48,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === 50:79 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //light coat
@@ -62,7 +62,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //mens coat
@@ -76,7 +76,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === 30:49 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //womans coat
@@ -90,7 +90,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === male && props.temp === <29 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //heavy insulated coat
@@ -104,7 +104,7 @@ const TorsoTile = props => {
   //       </div>
   //     )
   //   }
-  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy")) {
+  //   else if (users.gender === female && props.temp === <29 && props.summary.contains("Clear" || "Cloudy" || "Overcast")) {
   //     return (
   //       <div>
   //         //insulated coat (canadian goose)
