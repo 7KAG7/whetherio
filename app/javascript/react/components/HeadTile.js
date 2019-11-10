@@ -1,25 +1,15 @@
 import React, { useState, useEffect }  from "react"
 
 const HeadTile = props => {
-  const [currentBodyWeather, setCurrentBodyWeather] = useState ([])
 
-  useEffect(() => {
-    fetch('api/v1/weathers')
-    .then(response => {
-      return response.json()
-    })
-  //   .then(fetchedBodyWeather => {
-  //     setCurrentBodyWeather(fetchedBodyWeather.hourly.data)
-  //   })
-  // }, [])
+  // const hourTempAvg = props.temperature () => {
   //
-  // const bodyTiles = currentBodyWeather.temperature((hour) => {
+  //   return(
   //
-  //   return hour.reduce(function(a,b){
-  //     return a+b
-  //   }, 0)
-  })
+  //   )
+  // }
 
+  // console.log(temperature);
   //add waiting to load thing
 
   // const headwear = (() => {
@@ -143,7 +133,6 @@ const HeadTile = props => {
   return (
     <div>
       <div>
-      
         <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
         <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
         </a>

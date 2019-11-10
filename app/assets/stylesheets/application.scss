@@ -19,7 +19,7 @@
 body {
   height: auto;
   width: auto;
-  background-color: #003311;
+  background-color: #ccffcc;
 }
 
 #index-title {
@@ -35,9 +35,7 @@ body {
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
-  background-image: url("cold_clear.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #003311;
   font-family: lombok;
   font-weight: 400;
   font-size: 20px;
@@ -55,12 +53,10 @@ body {
   -moz-box-shadow:    inset 0 0 10px #000000;
    -webkit-box-shadow: inset 0 0 10px #000000;
    box-shadow:         inset 0 0 10px #000000;
-  background-image: url("cold_clear.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #003311;
   font-family: lombok;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
   padding: 1rem;
   margin: 2rem;
@@ -70,7 +66,7 @@ body {
     color: #ff9900;
     font-family: lombok;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .body-boxes {
@@ -108,18 +104,17 @@ body {
 
 #top-bar {
   color: #999421;
-  background-color: #7FDBff;
-  background-image: url("nav_bar.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.5;
+  background-color: #003311;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  opacity: 0.8;
 }
 #top-bar:hover {
   color: #999421;
-  background-color: #7FDBff;
-  background-image: url("nav_bar.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #003311;
+  border-radius: 8px;
   opacity: 1;
 }
 

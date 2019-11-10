@@ -30,7 +30,7 @@ const HourlyWeatherBoxContainer = props => {
     <div>
       <h3 htmlFor="primary-weather" id="weather-box-title">Hourly Conditions:</h3>
         <div id="hourly-weather-box">
-          <div>{hourly}</div>
+          {hourly}
         </div>
     </div>
   )

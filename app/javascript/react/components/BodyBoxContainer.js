@@ -8,6 +8,30 @@ import FootwearTile from "./FootwearTile"
 
 
 const BodyBoxContainer = props => {
+  const [currentBodyWeather, setCurrentBodyWeather] = useState ([])
+
+  useEffect(() => {
+    fetch('api/v1/weathers')
+    .then(response => {
+      return response.json()
+    })
+    .then(fetchedBodyWeather => {
+      setCurrentBodyWeather(fetchedBodyWeather.hourly.data)
+    })
+  }, [])
+
+  const hourly = currentBodyWeather.map((hour) => {
+    return(
+      <HeadTile
+        key={hour.id}
+        time={hour.time}
+        currently={hour.currently}
+        temperature={hour.temperature}
+        summary={hour.summary}
+      />
+    )
+  })
+
 
   return (
     <div>
