@@ -6,30 +6,7 @@ import TorsoTile from "./TorsoTile"
 import LegsTile from "./LegsTile"
 import FootwearTile from "./FootwearTile"
 
-
 const BodyBoxContainer = props => {
-  // const [currentHourlyBody, setCurrentHourlyBody] = useState ([])
-  //
-  // useEffect(() => {
-  //   fetch('api/v1/weathers')
-  //   .then(response => {
-  //     return response.json()
-  //   })
-  //   .then(hourlyWeather => {
-  //     setCurrentHourlyBody(hourlyWeather.hourly.data)
-  //     debugger
-  //   })
-  // }, [])
-  //
-  // const hourlyHead = currentHourlyBody.map((body) => {
-  //   return(
-  //     <HeadTile
-  //       key={body.id}
-  //       temperature={body.temperature}
-  //       summary={body.summary}
-  //     />
-  //   )
-  // })
 
   return (
     <div>

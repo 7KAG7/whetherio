@@ -1,5 +1,4 @@
 import React from "react"
-
 import WeatherBoxContainer from "./WeatherBoxContainer"
 import HourlyWeatherBoxContainer from "./HourlyWeatherBoxContainer"
 import BodyBoxContainer from './BodyBoxContainer'
