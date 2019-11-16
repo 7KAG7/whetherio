@@ -8,14 +8,14 @@ const IndexContainer = props => {
   return (
     <div>
       <h1 id="index-title">Weather & What to Wear</h1>
-        <div className="index-boxes grid-x grid-margin-x">
-          <div className="current_box large-5 medium-5 small-2">
+        <div className="index-boxes grid-x grid-margin-x align-center large-6 medium-8 small-12">
+          <div className="current_box">
             <WeatherBoxContainer />
           </div>
-          <div className="hourly_box align-right large-5 medium-5 small-2">
+          <div className="hourly_box">
             <HourlyWeatherBoxContainer />
           </div>
-          <div className="body_box align-center large-2 medium-2 small-2">
+          <div className="body_box">
             <BodyBoxContainer />
           </div>
         </div>
