@@ -1,25 +1,30 @@
 [![Codeship Status for 7KAG7/whetherio](https://app.codeship.com/projects/0cf17690-dc82-0137-7761-5ade14e29270/status?branch=master)](https://app.codeship.com/projects/371654)
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+http://whetherio.herokuapp.com/
 
-Things you may want to cover:
+WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather and an outfit that correlates with the condtions.
 
-* Ruby version
+* Ruby version 2.6.5
 
-* System dependencies
+* ReactJS 16.8.0
 
-* Configuration
+* Rails 5.2.3
 
-* Database creation
+* Devise for users sign up 
 
-* Database initialization
+* Database postgresQL
 
-* How to run the test suite
+* Faraday GEM for API calls
 
-* Services (job queues, cache servers, search engines, etc.)
+* make_it_so GEM for ruby/react on rails framework
 
-* Deployment instructions
+* Amazon affiliate marketing for outfits
 
-* ...
+* DarkSky API
+
+* Codepen for continuous integration monitoring
+
+Deployment instructions: from the CLI: clone the master version, then yarn start for react side rendering and Rail s for rails server in two seperate terminal tabs. then navigate to http://localhost:3000/ 
+
+A personalized DarkSky API key will be needed in order to populate weather condtions.
