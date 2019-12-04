@@ -4,6 +4,7 @@ const HeadTile = props => {
   const [currentBodyWeather, setCurrentBodyWeather] = useState ([])
   const [user, setUser] = useState (null)
 
+<<<<<<< HEAD
   useEffect(() => {
     fetch('api/v1/weathers')
     .then(response => {
@@ -68,6 +69,8 @@ const HeadTile = props => {
       headwear = <div>heavy knit hat</div>
     }
 
+=======
+>>>>>>> master
   return (
     <div>
       {headwear}

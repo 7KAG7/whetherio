@@ -6,7 +6,6 @@ import TorsoTile from "./TorsoTile"
 import LegsTile from "./LegsTile"
 import FootwearTile from "./FootwearTile"
 
-
 const BodyBoxContainer = props => {
 
   return (

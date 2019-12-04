@@ -4,7 +4,6 @@ const WeatherBoxContainer = props => {
   const [currentWeather, setCurrentWeather] = useState ("")
   const [currentDailyWeather, setCurrentDailyWeather] = useState ("")
 
-
   useEffect(() => {
     fetch('api/v1/weathers')
     .then(response => {
