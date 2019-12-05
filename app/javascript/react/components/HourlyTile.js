@@ -7,7 +7,7 @@ const HourlyTile = props => {
 
   return (
     <div>
-      <div className="hourly_data" key={props.key}>{timeStamp} || Temp: {props.temperature}°F || {props.summary}</div>
+      <div className="hourly_data" key={props.id}>{timeStamp} || Temp: {props.temperature}°F || {props.summary}</div>
     </div>
   )
 }

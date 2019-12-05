@@ -9,8 +9,8 @@ const HourlyWeatherBoxContainer = props => {
     .then(response => {
       return response.json()
     })
-    .then(fetchedHourlyWeather => {
-      setCurrentHourlyWeather(fetchedHourlyWeather.hourly.data)
+    .then(body => {
+      setCurrentHourlyWeather(body.weather.hourly.data)
     })
   }, [])
 

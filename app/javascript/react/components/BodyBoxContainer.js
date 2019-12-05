@@ -10,26 +10,26 @@ const BodyBoxContainer = props => {
 
   return (
     <div>
-    <div className="body-boxes">
-      <div type="text" className="body-box">
-        <HeadTile />
+      <div className="body-boxes">
+        <div type="text" className="body-box">
+          <HeadTile />
+        </div>
       </div>
-    </div>
-    <div className="body-boxes ">
-      <div type="text" className="body-box">
-        <TorsoTile />
+      <div className="body-boxes ">
+        <div type="text" className="body-box">
+          <TorsoTile />
+        </div>
       </div>
-    </div>
-    <div className="body-boxes ">
-      <div type="text" className="body-box">
-        <LegsTile />
+      <div className="body-boxes ">
+        <div type="text" className="body-box">
+          <LegsTile />
+        </div>
       </div>
-    </div>
-    <div className="body-boxes ">
-      <div type="text" className="body-box">
-        <FootwearTile />
+      <div className="body-boxes ">
+        <div type="text" className="body-box">
+          <FootwearTile />
+        </div>
       </div>
-    </div>
   </div>
   )
 }
