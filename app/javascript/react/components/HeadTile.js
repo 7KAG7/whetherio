@@ -18,64 +18,269 @@ const HeadTile = props => {
   }, [])
 
   let headwear
-    if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Rain" || "Drizzle")) {
-      headwear =  <div>
+    if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Rain")) {
+      (headwear =  <div>
                     <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
                     </a>
-                  </div>
-    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Clear" || "Cloudy" || "Overcast")) {
-      (headwear = <div>
-                    <a href="https://www.amazon.com/TOREGE-Polarized-Sunglasses-Interchangeable-Baseball/dp/B01HRJIG3Y/ref=as_li_ss_il?crid=1MCGIQT76RE17&dchild=1&keywords=sunglasses+for+men&psr=EY17&qid=1575488825&s=cyber-monday&smid=A43SSV15NPECY&sprefix=sung,cyber-monday,147&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=6a4c666b3a3b8cffe68d33d70e2708df&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01HRJIG3Y&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Drizzle")) {
+      (headwear =  <div>
+                    <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
                     </a>
                   </div>)
       if (user) {
         if (user === "female") {
-          headwear = <div>
-                      <a href="https://www.amazon.com/Tough-Headwear-Cable-Knit-Beanie/dp/B01M6ZDYZR/ref=as_li_ss_il?ac_md=1-0-VW5kZXIgJDEw-ac_d_pm&crid=2WHPM7MEPXSMR&keywords=womens+knit+hat&pd_rd_i=B01M6ZDYZR&pd_rd_r=6c40d10d-db28-4662-9190-fbe3d78666c5&pd_rd_w=3FO8T&pd_rd_wg=blu9K&pf_rd_p=24d053a8-30a1-4822-a2ff-4d1ab2b984fc&pf_rd_r=Y5WGCGEBCTZQBS8FWWBW&psc=1&qid=1575495885&sprefix=womens+kni,aps,144&linkCode=li1&tag=whetherio-20&linkId=f6d982ff56d7c184db9470c62fb3e442&language=en_US" target="_blank">
-                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M6ZDYZR&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                       </a>
-                     </div>
+                     </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.includes(("Rain" || "Drizzle"))) {
-      headwear = <div>womans hat</div>
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Clear" || "Cloudy" || "Overcast")) {
-      headwear = <div>regular hat</div>
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Rain" || "Drizzle")) {
-      headwear = <div>umbrella</div>
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79  && currentBodyWeather.summary.includes("Clear" || "Cloudy" || "Overcast")) {
-      headwear = <div>regular hat || headband</div>
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Rain" || "Drizzle")) {
-      headwear = <div>umbrella</div>
+    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Clear")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/dp/B00290R2PK/ref=as_li_ss_il?aaxitk=kf2eqVKgCzLTGZzz1N07jg&pd_rd_i=B000EYP57K&pf_rd_p=44fc3e0f-4b9e-4ed8-b33b-363a7257163d&hsa_cr_id=2669420320401&sb-ci-n=asinImage&sb-ci-v=https://m.media-amazon.com/images/I/51foQOboGwL.jpg&sb-ci-a=B000EYP57K&th=1&linkCode=li1&tag=whetherio-20&linkId=fe868034472a567ab36c6b4d2d37ffaa&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00290R2PK&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Michael-Kors-Tortoise-Acetate-Gradient/dp/B01N4LANX6/ref=as_li_ss_il?crid=3JX42BHMM1X54&dchild=1&keywords=womens+sunglasses&qid=1575567035&sprefix=womens+su,aps,133&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=dc9b50905117920894335506884926a4&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N4LANX6&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" /></a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Cloudy")) {
+      (headwear = <div>
+                    <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 80 && currentBodyWeather.summary.contains("Overcast")) {
+      (headwear = <div>
+                    <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Clear")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Cloudy")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Overcast")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Rain")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Drizzle")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
     } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Overcast")) {
       (headwear = <div>
-                    <a href="https://www.amazon.com/dp/B01LZM62LN/ref=as_li_ss_il?aaxitk=Ruc7MK27g9zQNto81IIK2A&pd_rd_i=B01LZM62LN&pf_rd_p=44fc3e0f-4b9e-4ed8-b33b-363a7257163d&hsa_cr_id=1171525580401&sb-ci-n=asinImage&sb-ci-v=https://m.media-amazon.com/images/I/71HhjxGzFOL.jpg&sb-ci-a=B01LZM62LN&linkCode=li1&tag=whetherio-20&linkId=a886ed7f24d23246ec20f6074eb8a2e7&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01LZM62LN&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                   </div>)
       if (user) {
         if (user === "female") {
-          headwear = <div>
-                      <a href="https://www.amazon.com/Tough-Headwear-Cable-Knit-Beanie/dp/B01M6ZDYZR/ref=as_li_ss_il?ac_md=1-0-VW5kZXIgJDEw-ac_d_pm&crid=2WHPM7MEPXSMR&keywords=womens+knit+hat&pd_rd_i=B01M6ZDYZR&pd_rd_r=6c40d10d-db28-4662-9190-fbe3d78666c5&pd_rd_w=3FO8T&pd_rd_wg=blu9K&pf_rd_p=24d053a8-30a1-4822-a2ff-4d1ab2b984fc&pf_rd_r=Y5WGCGEBCTZQBS8FWWBW&psc=1&qid=1575495885&sprefix=womens+kni,aps,144&linkCode=li1&tag=whetherio-20&linkId=f6d982ff56d7c184db9470c62fb3e442&language=en_US" target="_blank">
-                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M6ZDYZR&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                       </a>
-                     </div>
+                     </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 30 && 59 < currentBodyWeather.temperature && currentBodyWeather.summary === ("Rain" || "Drizzle")) {
-      headwear = <div><p>umbrella</p></div>
-    } else if (currentBodyWeather.temperature > 30 && 59 < currentBodyWeather.temperature && currentBodyWeather.summary.includes("Clear" || "Cloudy" || "Overcast")) {
-      headwear = <div>knit hat</div>
-    } else if (currentBodyWeather.temperature > 30 && 59 < currentBodyWeather.temperature && currentBodyWeather.summary === ("Rain" || "Drizzle")) {
-      headwear = <div>womans purse umbrella</div>
-    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Clear" || "Cloudy" || "Overcast")) {
-      headwear = <div>heavy knit hat</div>
-    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary === ("Snow")) {
-      headwear = <div>waterproof insulated hat</div>
-    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Clear" || "Cloudy" || "Overcast")) {
-      headwear = <div>heavy knit hat</div>
+    } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary === ("Rain")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary === ("Drizzle")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Clear")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Cloudy")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 30 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Overcast")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/North-Face-Womens-Stitch-Heather/dp/B078WGQ92V/ref=as_li_ss_il?dchild=1&keywords=womens+patagonia+knit+hat&qid=1575569467&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=abb24f19f76724390a5634ed429203b5&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGQ92V&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Clear")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Cloudy")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Overcast")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 29 && currentBodyWeather.summary.includes("Snow")) {
+      (headwear = <div>
+
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+
+                      </div>)
+        }
+      }
     }
 
   return (
