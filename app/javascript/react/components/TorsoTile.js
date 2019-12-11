@@ -124,7 +124,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Light Rain")) {
       (torso =  <div>
                   <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Raincoat/dp/B07F2S493K/ref=as_li_ss_il?th=1&linkCode=li1&tag=whetherio-20&linkId=491cdbeb6bdfc61e2146806d63503e59&language=en_US" target="_blank">
                   <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07F2S493K&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -139,7 +139,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Rain")) {
       (torso =  <div>
                   <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Raincoat/dp/B07F2S493K/ref=as_li_ss_il?th=1&linkCode=li1&tag=whetherio-20&linkId=491cdbeb6bdfc61e2146806d63503e59&language=en_US" target="_blank">
                   <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07F2S493K&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -154,7 +154,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Drizzle")) {
       (torso =  <div>
                   <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Raincoat/dp/B07F2S493K/ref=as_li_ss_il?th=1&linkCode=li1&tag=whetherio-20&linkId=491cdbeb6bdfc61e2146806d63503e59&language=en_US" target="_blank">
                   <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07F2S493K&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -184,7 +184,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -199,7 +199,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Cloudy")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -214,7 +214,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Overcast")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Overcast")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -229,7 +229,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary === ("Foggy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Foggy")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -244,7 +244,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary === ("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Flurries")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -259,7 +259,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary === ("Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Light Snow")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -274,7 +274,52 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary === ("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Snow")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Light Rain")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Rain")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Drizzle")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Breathable/dp/B006ZML8D0/ref=as_li_ss_il?crid=2DXOOVXRYOPCP&dchild=1&keywords=helle+hansen+rain+coat&qid=1575940730&sprefix=helle+hansen+jackets+mens,aps,150&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=932c164625775155d818e07473c8b249&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B006ZML8D0&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -364,6 +409,51 @@ const TorsoTile = props => {
                    </div>)
         }
       }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Flurries")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Snow")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
     } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Clear")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
@@ -410,36 +500,6 @@ const TorsoTile = props => {
         }
       }
     } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Overcast")) {
-      (torso = <div>
-                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
-                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
-                </a>
-               </div>)
-      if (user) {
-        if (user === "female") {
-          (torso = <div>
-                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
-                    </a>
-                   </div>)
-        }
-      }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
-      (torso = <div>
-                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
-                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
-                </a>
-               </div>)
-      if (user) {
-        if (user === "female") {
-          (torso = <div>
-                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
-                    </a>
-                   </div>)
-        }
-      }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Snow")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
