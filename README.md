@@ -3,7 +3,7 @@
 
 http://whetherio.herokuapp.com/
 
-WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather and an outfit that correlates with the condtions.
+WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather in Boston and an outfit that correlates with the condtions.
 
 * Ruby version 2.6.5
 
@@ -22,6 +22,13 @@ WhetherIO is a site designed to allow a user to sign-in/up and see the days whea
 * Amazon affiliate marketing for outfits
 
 * DarkSky API
+  This gem provides a wrapper around the Dark Sky API for retrieving and analyzing past and current weather forecasts. In order   to use this gem, you'll need to register for an account on Dark Sky so that you can get an API key to make requests with. The   account is free, and your first 1,000 calls per day are also free. After that, you'll be billed for each subsequent call. See   the Dark Sky FAQ for more details.
+  
+  You must run
+  ```
+  atom .env
+  ```
+  from the CLI and add DARK_SKY_KEY=YOUR DARK SKY API KEY
 
 * Codepen for continuous integration monitoring
 
