@@ -9,15 +9,16 @@
 <body>
 
   <nav class="top-bar" id="top-bar">
-    <h1><a class="nav-bar-title" href="/">WhetherIO<h5 id="go_outside">"Go Outside!"</h5></a></h1>
+    <h1><a class="nav-bar-title" href="/">WhetherIO</h1>
+    <h5 id="go_outside">"Whether its hot or cold, we got you covered!"</h5>
 
     <section class="top-bar-section">
       <ul class="right">
         <%- if current_user -%>
-          <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+          <li id="logs"><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
         <%- else -%>
-          <li><%= link_to 'Sign Up', new_user_registration_path %></li>
-          <li><%= link_to 'Sign In', new_user_session_path %></li>
+          <li id="logs"><%= link_to 'Sign Up', new_user_registration_path %></li>
+          <li id="logs"><%= link_to 'Sign In', new_user_session_path %></li>
         <%- end -%>
       </ul>
     </section>

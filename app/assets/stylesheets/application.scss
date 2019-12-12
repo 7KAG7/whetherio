@@ -15,15 +15,28 @@
  *= require_self
 
  */
+.city-search {
+  font-family: lombok;
+  margin-left: 10px;
+}
+
+#city-search {
+  width: 500px;
+  color: #f0eee9;
+}
+
+#weather-button {
+  border-style: solid;
+}
 
 body {
   height: auto;
   width: auto;
-  background-color: #ccffcc;
+  background-color: #4a4945;
 }
 
 #index-title {
-  color: #999421;
+  color: #f0eee9;
   text-align: center;
   font-family: lombok;
 }
@@ -39,7 +52,7 @@ body {
   font-family: lombok;
   font-weight: 400;
   font-size: 20px;
-  color: #ff9900;
+  color: #f0eee9;
   text-align: left;
   padding: 1rem;
   margin: 2rem;
@@ -63,7 +76,7 @@ body {
 }
 
 .hourly_data {
-    color: #ff9900;
+    color: #f0eee9;
     font-family: lombok;
     font-weight: 400;
     font-size: 16px;
@@ -92,13 +105,13 @@ body {
 }
 
 #weather-box-title {
-  color: #999421;
+  color: #f0eee9;
   font-family: lombok;
 }
 
 .nav-bar-title {
   font-family: lombok;
-  color: #999421;
+  color: #f0eee9;
 }
 
 
@@ -118,30 +131,26 @@ body {
   opacity: 1;
 }
 
-.top_bar_section {
-  font-family: lombok;
-  color: #999421;
-  opacity: 0.5;
+.right {
+  color: #f0eee9;
+  background-color: #999421;
+  margin: 2px;
+  padding: 1px;
 }
 
-.top_bar_section:hover {
-  font-family: lombok;
-  background-image: url("nav_bar.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #999421;
-  opacity: 1;
+#logs {
+  background-color: #003311;
+  padding: 1px;
 }
 
+ul {
+  list-style-type: none;
+}
 .field {
   color: #999421;
 }
 
 #new_user {
-  color: #999421;
-}
-
-.right {
   color: #999421;
 }
 
