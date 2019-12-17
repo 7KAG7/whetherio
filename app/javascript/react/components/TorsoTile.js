@@ -409,7 +409,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Flurries")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Flurries")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -424,7 +424,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -439,7 +439,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Rain")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -454,7 +454,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Light Rain")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -469,7 +469,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Snow")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Light Snow")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -484,7 +484,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Snow")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -499,7 +499,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Clear")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -514,7 +514,7 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -529,7 +529,22 @@ const TorsoTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Cloudy")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/Canada-Goose-Lorette-Parka-Womens/dp/B01M3Q1ALE/ref=as_li_ss_il?_encoding=UTF8&pd_rd_i=B01MDMFDTH&pd_rd_r=eba3c860-b0a5-4f97-89b9-207ac9d7c36a&pd_rd_w=vYmK9&pd_rd_wg=jBbo1&pf_rd_p=5873ae95-9063-4a23-9b7e-eafa738c2269&pf_rd_r=J9VHRX4E5BVNXAQ8EJ2H&refRID=J9VHRX4E5BVNXAQ8EJ2H&th=1&linkCode=li1&tag=whetherio-20&linkId=f915fcdb49c1a3f8da6b3f8ba78a134b&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01M3Q1ALE&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Overcast")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Mountain-Hardwear-Firefall-Jacket-Shark/dp/B01N678WR7/ref=as_li_ss_il?dchild=1&keywords=mens+mountain+hardwear+firefall&qid=1575941625&s=apparel&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=e00526c4bb963f36af55445473acb688&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01N678WR7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

@@ -408,7 +408,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Flurries")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Flurries")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -423,7 +423,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -438,7 +438,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Light Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -453,7 +453,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -468,7 +468,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Snow")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Light Snow")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -483,7 +483,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Snow")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -498,7 +498,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Clear")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -513,7 +513,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -528,7 +528,22 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Cloudy")) {
+      (legs = <div>
+                <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (user) {
+        if (user === "female") {
+          (legs = <div>
+                    <a href="https://www.amazon.com/Volcom-Womens-Swift-Overall-Snowpant/dp/B07N2N3ZHJ/ref=as_li_ss_il?crid=1UVIKZ4MO7D8Q&dchild=1&keywords=womens+snow+pants&qid=1575943238&s=apparel&sprefix=womens+snow+pan,fashion,147&sr=1-11&linkCode=li1&tag=whetherio-20&linkId=be8b15cf767e746f829da12898c73d17&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07N2N3ZHJ&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32.99 && currentBodyWeather.summary.includes("Overcast")) {
       (legs = <div>
                 <a href="https://www.amazon.com/North-Face-Mens-Seymore-Pant/dp/B078WFY89W/ref=as_li_ss_il?crid=C0ZS52SC2925&dchild=1&keywords=mens+northface+snow+pants&qid=1575943370&s=apparel&sprefix=mens+northface+s,fashion,143&sr=1-4&th=1&linkCode=li1&tag=whetherio-20&linkId=9e2c7c67a1d53ef28932ed0a8b5051bb&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WFY89W&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
