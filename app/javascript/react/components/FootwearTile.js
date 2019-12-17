@@ -415,6 +415,32 @@ const FootwearTile = props => {
                       </div>)
         }
       }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Drizzle")) {
+      (footwear = <div>
+                    <a href="https://www.amazon.com/Sorel-Mens-Caribou-Snow-Boot/dp/B00B1UF378/ref=as_li_ss_il?crid=QADE3Z7AT4Y2&dchild=1&keywords=mens+sorel+winter+boots&qid=1575927080&sprefix=mens+sorre,aps,152&sr=8-2&linkCode=li1&tag=whetherio-20&linkId=800c28b8f87ec4c24a69ed882853c907&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00B1UF378&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (footwear = <div>
+                        <a href="https://www.amazon.com/Sorel-Womens-Arctic-Black-Quarry/dp/B07KJZMJXW/ref=as_li_ss_il?crid=2ZU15XQ4SK6DO&dchild=1&keywords=womens+sorel+winter+boots&qid=1575927187&sprefix=wmens+sorel+winter+boots,aps,149&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=4718d5c3e0a6b163abb9fb2d090e4a95&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07KJZMJXW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                        </a>
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Rain")) {
+      (footwear = <div>
+                    <a href="https://www.amazon.com/Sorel-Mens-Caribou-Snow-Boot/dp/B00B1UF378/ref=as_li_ss_il?crid=QADE3Z7AT4Y2&dchild=1&keywords=mens+sorel+winter+boots&qid=1575927080&sprefix=mens+sorre,aps,152&sr=8-2&linkCode=li1&tag=whetherio-20&linkId=800c28b8f87ec4c24a69ed882853c907&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00B1UF378&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (footwear = <div>
+                        <a href="https://www.amazon.com/Sorel-Womens-Arctic-Black-Quarry/dp/B07KJZMJXW/ref=as_li_ss_il?crid=2ZU15XQ4SK6DO&dchild=1&keywords=womens+sorel+winter+boots&qid=1575927187&sprefix=wmens+sorel+winter+boots,aps,149&sr=8-7&linkCode=li1&tag=whetherio-20&linkId=4718d5c3e0a6b163abb9fb2d090e4a95&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07KJZMJXW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                        </a>
+                      </div>)
+        }
+      }
     } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/Sorel-Mens-Caribou-Snow-Boot/dp/B00B1UF378/ref=as_li_ss_il?crid=QADE3Z7AT4Y2&dchild=1&keywords=mens+sorel+winter+boots&qid=1575927080&sprefix=mens+sorre,aps,152&sr=8-2&linkCode=li1&tag=whetherio-20&linkId=800c28b8f87ec4c24a69ed882853c907&language=en_US" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00B1UF378&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

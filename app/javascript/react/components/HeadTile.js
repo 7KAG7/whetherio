@@ -422,6 +422,36 @@ const HeadTile = props => {
                       </div>)
         }
       }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Drizzle")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Carhartt-Mens-Knit-Visor-Green/dp/B005442A0K/ref=as_li_ss_il?dchild=1&keywords=mens+winter+jeep+hats&qid=1575939928&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=f1d8b013fda6b85bae6ea110059808d0&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B005442A0K&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                        <a href="https://www.amazon.com/Hatsandscarf-Cable-Knit-Beanie-Chunky/dp/B07H4626YL/ref=as_li_ss_il?dchild=1&keywords=womens+winter+hats&qid=1575940058&sr=8-5&linkCode=li1&tag=whetherio-20&linkId=7c9ff151fa6517da6c757cae0b66a6e1&language=en_US" target="_blank">
+                        <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07H4626YL&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                        </a>
+                      </div>)
+        }
+      }
+    } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Rain")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Carhartt-Mens-Knit-Visor-Green/dp/B005442A0K/ref=as_li_ss_il?dchild=1&keywords=mens+winter+jeep+hats&qid=1575939928&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=f1d8b013fda6b85bae6ea110059808d0&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B005442A0K&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (user) {
+        if (user === "female") {
+          (headwear = <div>
+                        <a href="https://www.amazon.com/Hatsandscarf-Cable-Knit-Beanie-Chunky/dp/B07H4626YL/ref=as_li_ss_il?dchild=1&keywords=womens+winter+hats&qid=1575940058&sr=8-5&linkCode=li1&tag=whetherio-20&linkId=7c9ff151fa6517da6c757cae0b66a6e1&language=en_US" target="_blank">
+                        <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07H4626YL&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                        </a>
+                      </div>)
+        }
+      }
     } else if (currentBodyWeather.temperature < 32 && currentBodyWeather.summary.includes("Light Snow")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Carhartt-Mens-Knit-Visor-Green/dp/B005442A0K/ref=as_li_ss_il?dchild=1&keywords=mens+winter+jeep+hats&qid=1575939928&sr=8-1&linkCode=li1&tag=whetherio-20&linkId=f1d8b013fda6b85bae6ea110059808d0&language=en_US" target="_blank">
