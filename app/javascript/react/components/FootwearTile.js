@@ -123,7 +123,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Light Rain")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Utility-Boulder-Industrial-Raven/dp/B0741HLBBR/ref=as_li_ss_il?crid=1YJ26GQ7OJJ1Y&dchild=1&keywords=mens+keen+shoes&qid=1575943786&s=apparel&sprefix=mens+keen,fashion,154&sr=1-17&linkCode=li2&tag=whetherio-20&linkId=cd9859fa3af731b59a25e35a4b7f513d&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0741HLBBR&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -138,7 +138,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Rain")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Utility-Boulder-Industrial-Raven/dp/B0741HLBBR/ref=as_li_ss_il?crid=1YJ26GQ7OJJ1Y&dchild=1&keywords=mens+keen+shoes&qid=1575943786&s=apparel&sprefix=mens+keen,fashion,154&sr=1-17&linkCode=li2&tag=whetherio-20&linkId=cd9859fa3af731b59a25e35a4b7f513d&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0741HLBBR&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -153,7 +153,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Utility-Boulder-Industrial-Raven/dp/B0741HLBBR/ref=as_li_ss_il?crid=1YJ26GQ7OJJ1Y&dchild=1&keywords=mens+keen+shoes&qid=1575943786&s=apparel&sprefix=mens+keen,fashion,154&sr=1-17&linkCode=li2&tag=whetherio-20&linkId=cd9859fa3af731b59a25e35a4b7f513d&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0741HLBBR&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -168,7 +168,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Clear")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/adidas-Superstar-Shoes-Mens-White/dp/B07QYQ82KG/ref=as_li_ss_il?crid=3PYPFN6SKASYF&dchild=1&keywords=mens+shell+toe+adidas+shoes&qid=1575943680&s=apparel&sprefix=mens+shell+toe,fashion,143&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=7ab251fa0bd7a4da77ae3ddd48dda5dd&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYQ82KG&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -183,7 +183,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/adidas-Superstar-Shoes-Mens-White/dp/B07QYQ82KG/ref=as_li_ss_il?crid=3PYPFN6SKASYF&dchild=1&keywords=mens+shell+toe+adidas+shoes&qid=1575943680&s=apparel&sprefix=mens+shell+toe,fashion,143&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=7ab251fa0bd7a4da77ae3ddd48dda5dd&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYQ82KG&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -198,7 +198,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/adidas-Superstar-Shoes-Mens-White/dp/B07QYQ82KG/ref=as_li_ss_il?crid=3PYPFN6SKASYF&dchild=1&keywords=mens+shell+toe+adidas+shoes&qid=1575943680&s=apparel&sprefix=mens+shell+toe,fashion,143&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=7ab251fa0bd7a4da77ae3ddd48dda5dd&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYQ82KG&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -213,7 +213,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Overcast")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/adidas-Superstar-Shoes-Mens-White/dp/B07QYQ82KG/ref=as_li_ss_il?crid=3PYPFN6SKASYF&dchild=1&keywords=mens+shell+toe+adidas+shoes&qid=1575943680&s=apparel&sprefix=mens+shell+toe,fashion,143&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=7ab251fa0bd7a4da77ae3ddd48dda5dd&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYQ82KG&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -228,7 +228,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Foggy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/adidas-Superstar-Shoes-Mens-White/dp/B07QYQ82KG/ref=as_li_ss_il?crid=3PYPFN6SKASYF&dchild=1&keywords=mens+shell+toe+adidas+shoes&qid=1575943680&s=apparel&sprefix=mens+shell+toe,fashion,143&sr=1-6&linkCode=li1&tag=whetherio-20&linkId=7ab251fa0bd7a4da77ae3ddd48dda5dd&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYQ82KG&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -243,7 +243,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Flurries")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Flurries")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -257,7 +257,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Snow")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -271,7 +271,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Snow")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -285,7 +285,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Rain")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -299,7 +299,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Rain")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -313,7 +313,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -327,7 +327,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Clear")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -342,7 +342,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -357,7 +357,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -372,7 +372,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Overcast")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -387,7 +387,7 @@ const FootwearTile = props => {
                       </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Foggy")) {
       (footwear = <div>
                     <a href="https://www.amazon.com/KEEN-Revel-Winter-Magnet-Tawny/dp/B00RM1746I/ref=as_li_ss_il?dchild=1&keywords=keen&qid=1575925787&sr=8-15&linkCode=li1&tag=whetherio-20&linkId=0df6d9e8d2d97ddddd07b2e1de9030ef&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RM1746I&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

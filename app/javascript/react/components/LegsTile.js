@@ -123,7 +123,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Light Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -138,7 +138,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -153,7 +153,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -168,7 +168,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Clear")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -183,7 +183,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -198,7 +198,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -213,7 +213,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Overcast")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -228,7 +228,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Foggy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -243,7 +243,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Flurries")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Flurries")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -258,7 +258,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Snow")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -273,7 +273,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Snow")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -288,7 +288,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -303,7 +303,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/MAGCOMSEN-Lightweight-Camping-Pockets-Outdoor/dp/B07MNPRKN8/ref=as_li_ss_il?crid=3NNORV84YGHEQ&dchild=1&keywords=kuhl+mens+pants&qid=1575938588&refinements=p_72:2661618011&rnid=2661617011&sprefix=kuhl,aps,158&sr=8-6&linkCode=li1&tag=whetherio-20&linkId=81c1a0f15c994cd250dda5a267ec3677&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MNPRKN8&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -318,7 +318,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (legs = <div>
                 <a href="https://www.amazon.com/MAGCOMSEN-Lightweight-Camping-Pockets-Outdoor/dp/B07MNPRKN8/ref=as_li_ss_il?crid=3NNORV84YGHEQ&dchild=1&keywords=kuhl+mens+pants&qid=1575938588&refinements=p_72:2661618011&rnid=2661617011&sprefix=kuhl,aps,158&sr=8-6&linkCode=li1&tag=whetherio-20&linkId=81c1a0f15c994cd250dda5a267ec3677&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MNPRKN8&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -333,7 +333,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Clear")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -348,7 +348,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -363,7 +363,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -378,7 +378,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Overcast")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -393,7 +393,7 @@ const LegsTile = props => {
                    </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Foggy")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Carhartt-Washed-Twill-Dungaree-Relaxed/dp/B00870NC9G/ref=as_li_ss_il?dchild=1&keywords=mens+pants&psc=1&qid=1572979819&s=apparel&sr=1-45&linkCode=li1&tag=whetherio-20&linkId=fcd3d79801060578f30bc3c6466cde00&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00870NC9G&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

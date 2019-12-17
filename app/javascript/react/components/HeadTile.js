@@ -122,7 +122,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Light Rain")) {
       (headwear = <div>
                     <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
@@ -137,7 +137,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Rain")) {
       (headwear = <div>
                     <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
@@ -152,7 +152,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (headwear = <div>
                     <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
@@ -167,7 +167,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Clear")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -182,7 +182,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -197,7 +197,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -212,7 +212,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Overcast")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -227,7 +227,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 60 && currentBodyWeather.temperature < 79.99 && currentBodyWeather.summary.includes("Foggy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -242,7 +242,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Flurries")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Flurries")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -257,7 +257,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Snow")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -272,7 +272,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Snow")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Snow")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -287,7 +287,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59  && currentBodyWeather.summary.includes("Light Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99  && currentBodyWeather.summary.includes("Light Rain")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -302,7 +302,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Rain")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Rain")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -317,7 +317,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Drizzle")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Drizzle")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -332,7 +332,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Clear")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Clear")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -347,7 +347,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Mostly Cloudy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -362,7 +362,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Cloudy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Cloudy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -377,7 +377,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Overcast")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Overcast")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
@@ -392,7 +392,7 @@ const HeadTile = props => {
                      </div>)
         }
       }
-    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59 && currentBodyWeather.summary.includes("Foggy")) {
+    } else if (currentBodyWeather.temperature > 33 && currentBodyWeather.temperature < 59.99 && currentBodyWeather.summary.includes("Foggy")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Volcom-Flexfit-Stretch-Charcoal-Heather/dp/B00OWD54FW/ref=as_li_ss_il?dchild=1&keywords=mens+hat&qid=1575569308&sr=8-31&linkCode=li1&tag=whetherio-20&linkId=8c973cb721b400ab107ca64f18f8f74c&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00OWD54FW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
