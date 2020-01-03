@@ -17,6 +17,13 @@ const SearchBarComponent = props => {
     }
   }
 
+  const clearForm = () => {
+    event.preventDefault()
+    setCity("")
+    setUserState("")
+    setZip("")
+  }
+
   const onSubmitHandler = (event) => {
     event.preventDefault()
   const formPayload = {
@@ -25,12 +32,12 @@ const SearchBarComponent = props => {
     zip: zip
   }
     props.getWeather(formPayload)
+    clearForm()
   }
 
   return (
     <form className="searchBar" onSubmit={onSubmitHandler}>
       <label>
-        Location:
         <input onChange={handleInputChange} value={city} type="text" id="city" placeholder="Please enter a City, State or Zip"/>
       </label>
 
