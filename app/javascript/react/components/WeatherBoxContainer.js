@@ -1,33 +1,17 @@
 import React, { useState, useEffect }  from "react"
+import SearchBarComponent from './SearchBarComponent'
 
 const WeatherBoxContainer = props => {
-  const [currentWeather, setCurrentWeather] = useState ("")
-  const [currentDailyWeather, setCurrentDailyWeather] = useState ("")
-
-  useEffect(() => {
-    fetch('api/v1/weathers')
-    .then(response => {
-      return response.json()
-    })
-    .then(body => {
-      setCurrentWeather(body.weather.currently)
-      setCurrentDailyWeather(body.weather.daily)
-    })
-  }, [])
 
   return (
     <div>
-      <h3 htmlFor="primary-weather grid-x medium-6" id="weather-box-title">Todays Boston Weather:</h3>
+      <h3 htmlFor="primary-weather grid-x medium-6" id="weather-box-title">Todays Weather:</h3>
+
         <div id="current-weather-box">
-          <div>Current Condtions: {currentWeather.summary}</div>
-          <div>Temperature: {currentWeather.temperature}°F</div>
-          <div>Humidity: {currentWeather.humidity}</div>
-          <div>Windspeed: {currentWeather.windSpeed}</div>
-          <div>Wind Gusts: {currentWeather.windGust}</div>
-          <div>Cloud Cover: {currentWeather.cloudCover}</div>
-          <div>Chance of Rain: {currentWeather.precipProbability}</div>
-          <div>Dewpoint: {currentWeather.dewPoint}</div>
-          <div>Future Condtions: {currentDailyWeather.summary}</div>
+          <h3>Current Condtions: <h2>{props.temperature}°F & {props.summary}</h2></h3>
+          <div>Humidity: {props.humidity}</div>
+          <div>Chance of Rain: {props.precipProbability}%</div>
+          <div>upcoming: {props.future}</div>
         </div>
     </div>
   )
