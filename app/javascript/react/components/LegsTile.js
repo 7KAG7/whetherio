@@ -108,6 +108,21 @@ const LegsTile = props => {
                    </div>)
         }
       }
+    } else if (props.temperature > 80 && props.summary.includes("Humid")) {
+      (legs = <div>
+                <a href="https://www.amazon.com/Pinkpum-Lightweight-Pocket-Casual-Shorts/dp/B07JJR6BCD/ref=as_li_ss_il?crid=KR3ZKEK2FSE9&dchild=1&keywords=mens+cargo+shorts&qid=1575942598&s=apparel&sprefix=mens+cargo,fashion,150&sr=1-10&linkCode=li1&tag=whetherio-20&linkId=3cb582fb17eba6d137fbf857775a58b6&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JJR6BCD&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (legs = <div>
+                    <a href="https://www.amazon.com/PHOENISING-Womens-Stretchy-Fabric-Distressed/dp/B0721JRP21/ref=as_li_ss_il?dchild=1&keywords=womens+shorts&qid=1575942548&s=apparel&sr=1-10&linkCode=li1&tag=whetherio-20&linkId=5e7d6d7edb5cf2c8dcec0003620dd424&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0721JRP21&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Light Rain")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
@@ -214,6 +229,21 @@ const LegsTile = props => {
         }
       }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Foggy")) {
+      (legs = <div>
+                <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (legs = <div>
+                    <a href="https://www.amazon.com/Lululemon-High-Times-Pants-Black/dp/B01LWPM0L2/ref=as_li_ss_il?crid=17S01EVQ168YI&dchild=1&keywords=lululemon+leggings&qid=1575942966&s=apparel&sprefix=lulu,fashion,156&sr=1-5&linkCode=li2&tag=whetherio-20&linkId=c8a29782a973d56bb904bcb1905ae96a&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01LWPM0L2&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Humid")) {
       (legs = <div>
                 <a href="https://www.amazon.com/Kuhl-Mens-Slax-Pants-Raven/dp/B00RSKR1ZW/ref=as_li_ss_il?ref_=ast_bbp_dp&th=1&psc=1&linkCode=li1&tag=whetherio-20&linkId=f0e60a04951b67de8dadea958a42d59f&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00RSKR1ZW&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

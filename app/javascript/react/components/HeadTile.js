@@ -107,6 +107,21 @@ const HeadTile = props => {
                      </div>)
         }
       }
+    } else if (props.temperature > 80 && props.summary.includes("Humid")) {
+      (headwear = <div>
+                    <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B06WV7411J&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL110_&tag=whetherio-20" />
+                    </a>
+                  </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Light Rain")) {
       (headwear = <div>
                     <a target="_blank"  href="https://www.amazon.com/gp/product/B06WV7411J/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B06WV7411J&linkCode=as2&tag=whetherio-20&linkId=e2d484e3a7a7e1feb55e704cd068b726">
@@ -213,6 +228,21 @@ const HeadTile = props => {
         }
       }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Foggy")) {
+      (headwear = <div>
+                    <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                  </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (headwear = <div>
+                      <a href="https://www.amazon.com/Roxy-Juniors-Finishline-Trucker-Anthracite/dp/B01MTY7NTU/ref=as_li_ss_il?crid=361PJAIJ2TALB&dchild=1&keywords=womens+trucker+hat&qid=1575566598&s=apparel&sprefix=womens+trucke,fashion,157&sr=1-1&linkCode=li1&tag=whetherio-20&linkId=16b99d5e5164c1e5b9c02197c021dfd7&language=en_US" target="_blank">
+                      <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MTY7NTU&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                      </a>
+                     </div>)
+        }
+      }
+    } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Humid")) {
       (headwear = <div>
                     <a href="https://www.amazon.com/Hurley-Phantom-Ripstop-Baseball-Heather/dp/B07GNTYB93/ref=as_li_ss_il?dchild=1&keywords=mens+hats&qid=1575939022&refinements=p_72:2661618011&rnid=2661617011&sr=8-30&linkCode=li1&tag=whetherio-20&linkId=57b450eeee3e7fecc4ca16aaab2b4593&language=en_US" target="_blank">
                     <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GNTYB93&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />

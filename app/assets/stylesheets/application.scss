@@ -26,10 +26,15 @@
 }
 
 .searchBar{
-  width: 500px;
+  width: 300px;
   padding-left: 20px;
 }
 
+.button {
+  border: solid;
+  color: whitesmoke;
+  padding: 1em 1.5em;
+}
 #weather-button {
   border-style: solid;
 }
@@ -133,7 +138,7 @@ body {
 }
 
 #logs {
-  background-color: #003311;
+  background-color: #303331;
   font-weight: bold;
   padding: 1px;
 }
@@ -146,6 +151,7 @@ ul {
 }
 
 .searchBar {
+  padding: 1em;
   font-family: lombok;
   color: #f0eee9;
 }

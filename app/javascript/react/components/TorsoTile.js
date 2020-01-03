@@ -108,6 +108,21 @@ const TorsoTile = props => {
                    </div>)
         }
       }
+    } else if (props.temperature > 80 && props.summary.includes("Humid")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Grunt-Style-America-T-Shirt-Large/dp/B01MY69LE7/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940354&sprefix=mens+tshirts+americ,aps,144&sr=8-2&linkCode=li1&tag=whetherio-20&linkId=e3aa720413ea57fea05df24cee8dc032&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01MY69LE7&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/Amazon-Essentials-Womens-2-Pack-Slim-Fit/dp/B0775M7SRD/ref=as_li_ss_il?crid=1PESI3D39CURK&dchild=1&keywords=womens+tank+tops&qid=1575941184&s=apparel&sprefix=womens+tank,fashion,154&sr=1-7&linkCode=li1&tag=whetherio-20&linkId=f28be758e561028d4e2c9af85eaf9843&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0775M7SRD&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Light Rain")) {
       (torso =  <div>
                   <a href="https://www.amazon.com/Helly-Hansen-Waterproof-Windproof-Raincoat/dp/B07F2S493K/ref=as_li_ss_il?th=1&linkCode=li1&tag=whetherio-20&linkId=491cdbeb6bdfc61e2146806d63503e59&language=en_US" target="_blank">
@@ -214,6 +229,21 @@ const TorsoTile = props => {
         }
       }
     } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Foggy")) {
+      (torso = <div>
+                <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
+                <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                </a>
+               </div>)
+      if (props.user) {
+        if (props.user.gender === "female") {
+          (torso = <div>
+                    <a href="https://www.amazon.com/DUOSTICK-Sleeve-Twist-Shirts-Blouses-XS/dp/B081L5WRRZ/ref=as_li_ss_il?crid=4VJHH56AZRT7&keywords=womens+tops+and+blouses&qid=1575941468&s=apparel&sprefix=womens+top,fashion,159&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNVNNRjdLR1hLWEhBJmVuY3J5cHRlZElkPUEwOTU3MDk2NVBJOUE4MkpKT0U0JmVuY3J5cHRlZEFkSWQ9QTA5NTM1MTEyOEU2Q0FBRU8xVVJQJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==&linkCode=li1&tag=whetherio-20&linkId=2711004716e75df148df1e20e0c063b6&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B081L5WRRZ&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    </a>
+                   </div>)
+        }
+      }
+    } else if (props.temperature > 60 && props.temperature < 79.99 && props.summary.includes("Humid")) {
       (torso = <div>
                 <a href="https://www.amazon.com/Black-American-Sleeve-T-Shirt-Charcoal/dp/B01DTGES6S/ref=as_li_ss_il?crid=2PJCXW0RY8W1G&dchild=1&keywords=mens+tshirts+american&qid=1575940528&sprefix=mens+tshirts+americ,aps,144&sr=8-8&linkCode=li1&tag=whetherio-20&linkId=4f3ae0d8b6029002e758857949db2460&language=en_US" target="_blank">
                 <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01DTGES6S&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
