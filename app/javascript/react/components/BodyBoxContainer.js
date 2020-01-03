@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import WeatherBoxContainer from "./WeatherBoxContainer"
-import HourlyWeatherBoxContainer from "./HourlyWeatherBoxContainer"
 import HeadTile from "./HeadTile"
 import TorsoTile from "./TorsoTile"
 import LegsTile from "./LegsTile"
@@ -12,22 +11,42 @@ const BodyBoxContainer = props => {
     <div>
       <div className="body-boxes">
         <div type="text" className="body-box">
-          <HeadTile />
+          <HeadTile
+          key={props.id}
+          summary={props.summary}
+          temperature={props.temperature}
+          user={props.user}
+          />
         </div>
       </div>
       <div className="body-boxes ">
         <div type="text" className="body-box">
-          <TorsoTile />
+          <TorsoTile
+          key={props.id}
+          summary={props.summary}
+          temperature={props.temperature}
+          user={props.user}
+          />
         </div>
       </div>
       <div className="body-boxes ">
         <div type="text" className="body-box">
-          <LegsTile />
+          <LegsTile
+          key={props.id}
+          summary={props.summary}
+          temperature={props.temperature}
+          user={props.user}
+          />
         </div>
       </div>
       <div className="body-boxes ">
         <div type="text" className="body-box">
-          <FootwearTile />
+          <FootwearTile
+          key={props.id}
+          summary={props.summary}
+          temperature={props.temperature}
+          user={props.user}
+          />
         </div>
       </div>
   </div>
