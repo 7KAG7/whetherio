@@ -37,7 +37,7 @@ const SearchBarComponent = props => {
 
   return (
     <form className="searchBar" onSubmit={onSubmitHandler}>
-      <label>
+      <label className="pulse">
         <input onChange={handleInputChange} value={city} type="text" id="city" placeholder="Please enter a City, State or Zip"/>
       </label>
 

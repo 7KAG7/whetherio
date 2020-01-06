@@ -15,6 +15,32 @@
  *= require_self
 
  */
+
+ #log_in_form {
+   width: 400px;
+   margin: 1rem;
+ }
+
+.field {
+  width: 400px;
+  margin: 1rem;
+}
+
+.actions {
+  width: 400px;
+  margin: 1rem;
+}
+
+.background_box {
+  height: 100%;
+  width: 100%;
+  float: left;
+
+  padding: none;
+  position: absolute;
+  z-index: -1;
+}
+
 .city-search {
   font-family: lombok;
   margin-left: 10px;
@@ -27,7 +53,8 @@
 
 .searchBar{
   width: 300px;
-  padding-left: 20px;
+  padding-left: 20px
+
 }
 
 .button {
@@ -38,7 +65,6 @@
 #weather-button {
   border-style: solid;
 }
-
 body {
   height: auto;
   width: auto;
@@ -50,7 +76,9 @@ body {
   text-align: center;
   font-family: lombok;
 }
-
+.index-boxes {
+  z-index: 2;
+}
 .current_box {
   height: 400px;
   width: 400px;
@@ -65,31 +93,7 @@ body {
   color: #f0eee9;
   text-align: left;
   padding: 1rem;
-  margin: 2rem;
-}
-
-.hourly_box {
-  height: 400px;
-  width: 400px;
-  overflow-y: auto;
-  border-radius: 8px;
-  -moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-   box-shadow:         inset 0 0 10px #000000;
-  background-color: #303331;
-  font-family: lombok;
-  font-weight: 400;
-  font-size: 16px;
-  text-align: left;
-  padding: 1rem;
-  margin: 2rem;
-}
-
-.hourly_data {
-    color: #f0eee9;
-    font-family: lombok;
-    font-weight: 400;
-    font-size: 16px;
+  margin: 1rem;
 }
 
 .body-boxes {
@@ -110,7 +114,7 @@ body {
   height: auto;
   width: auto;
   border-radius: 4px;
-  margin: 3rem;
+  margin: 1rem;
   position: relative;
 }
 
@@ -127,14 +131,9 @@ body {
 
 
 .top-bar {
-  height: 140px;
+  height: 100px;
   color: #999421;
   background-color: #303331;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  -moz-box-shadow:    inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 10px #000000;
 }
 
 #logs {
@@ -170,4 +169,45 @@ ul {
 
 #go_outside {
    font-style: italic;
+ }
+
+ .pulse {
+   padding-bottom: 40px;
+   display: block;
+   width: 200px;
+   height: 22px;
+   border-radius: 0%;
+   background: #303331;
+   cursor: pointer;
+   box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+   animation: pulse 2s infinite;
+ }
+ .pulse:hover {
+   animation: none;
+ }
+
+ @-webkit-keyframes pulse {
+   0% {
+     -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+   }
+   70% {
+       -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+   }
+   100% {
+       -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+   }
+ }
+ @keyframes pulse {
+   0% {
+     -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+     box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+   }
+   70% {
+       -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+       box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+   }
+   100% {
+       -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+       box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+   }
  }
