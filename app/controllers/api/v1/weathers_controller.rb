@@ -9,7 +9,7 @@ class Api::V1::WeathersController < ApplicationController
       base_url = "https://api.darksky.net/forecast/#{ENV["DARK_SKY_KEY"]}/#{latitude}, #{longitude}"
       response = Faraday.get(base_url.gsub(/\s+/, ""))
       weather = JSON.parse(response.body)
-    elsif Rails.env.production?
+    elsif 
       results = Geocoder.search(request.location)
       latitude = results.first.coordinates[0].round(4)
       longitude = results.first.coordinates[1].round(4)
