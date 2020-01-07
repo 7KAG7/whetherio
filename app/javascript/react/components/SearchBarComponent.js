@@ -26,11 +26,11 @@ const SearchBarComponent = props => {
 
   const onSubmitHandler = (event) => {
     event.preventDefault()
-  const formPayload = {
-    city: city,
-    state: userState,
-    zip: zip
-  }
+    const formPayload = {
+      city: city,
+      state: userState,
+      zip: zip
+    }
     props.getWeather(formPayload)
     clearForm()
   }
@@ -38,7 +38,7 @@ const SearchBarComponent = props => {
   return (
     <form className="searchBar" onSubmit={onSubmitHandler}>
       <label className="pulse">
-        <input onChange={handleInputChange} value={city} type="text" id="city" placeholder="Please enter a City, State or Zip"/>
+        <input onChange={handleInputChange} value={city} type="text" id="city" placeholder="City, State or Zip"/>
       </label>
 
       <div className="button-group">
