@@ -10,6 +10,7 @@ const BodyBoxContainer = props => {
   return (
     <div>
       <div className="body-boxes">
+      <h3>Recommended Outfit</h3>
         <div type="text" className="body-box">
           <HeadTile
           key={props.id}
