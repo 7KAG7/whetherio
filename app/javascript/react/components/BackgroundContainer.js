@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from "react"
 import WinterGrass from "./WinterGrass"
 import Rain from "./Rain"
-import Snow from "./Snowing"
+import Snowing from "./Snowing"
 import SummerClear from "./SummerClear"
 import ClearCool from "./ClearCool"
 import Cloudy from "./Cloudy"
