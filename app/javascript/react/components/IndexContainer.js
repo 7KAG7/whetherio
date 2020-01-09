@@ -9,6 +9,7 @@ const IndexContainer = props => {
   const [currentWeather, setCurrentWeather] = useState ("")
   const [currentLocation, setCurrentLocation] = useState ("")
   const [currentDailyWeather, setCurrentDailyWeather] = useState ("")
+  const [currentHourlyWeather, setCurrentHourlyWeather] = useState ("")
   const [user, setUser] = useState (null)
 
   useEffect(() => {
@@ -28,6 +29,7 @@ const IndexContainer = props => {
         }
         setCurrentWeather(body.weather.currently)
         setCurrentDailyWeather(body.weather.daily)
+        setCurrentHourlyWeather(body.weather.hourly)
         setCurrentLocation(body.results[0].data.formatted_address)
       })
       .catch(error => console.error(`Error in fetch: ${error.message}`));
@@ -51,6 +53,7 @@ const IndexContainer = props => {
       }
       setCurrentWeather(body.weather.currently)
       setCurrentDailyWeather(body.weather.daily)
+      setCurrentHourlyWeather(body.weather.hourly)
       setCurrentLocation(body.results[0].data.formatted_address)
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`));
@@ -66,7 +69,7 @@ const IndexContainer = props => {
         temperature={currentWeather.temperature}
         />
       </div>
-      <div className="index-boxes grid-x grid-margin-x align-center large-6 medium-8 small-12">
+      <div className="index-boxes grid-x grid-margin-x align-center large-6 medium-8 small-8">
         <div className="city_box" style={{zIndex:2}}>
         <SearchBarComponent
           getWeather={getWeather}
@@ -76,11 +79,16 @@ const IndexContainer = props => {
           <WeatherBoxContainer
           key={currentWeather.id}
           summary={currentWeather.summary}
+          feelslike={currentWeather.apparentTemperature}
+          hourlysum={currentHourlyWeather.summary}
+          icon={currentWeather.icon}
           temperature={currentWeather.temperature}
           humidity={currentWeather.humidity}
           precipProbability={currentWeather.precipProbability}
           future={currentDailyWeather.summary}
           location={currentLocation}
+          windSpeed={currentWeather.windSpeed}
+          windGust={currentWeather.windGust}
           />
         </div>
         <div className="body_box" style={{zIndex:2}}>
@@ -93,7 +101,6 @@ const IndexContainer = props => {
         </div>
       </div>
       <h6 id="dark_sky">https://darksky.net/poweredby/</h6>
-
     </div>
   )
 }
