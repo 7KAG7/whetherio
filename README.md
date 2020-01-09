@@ -3,7 +3,7 @@
 
 http://whetherio.herokuapp.com/
 
-WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather in Boston and an outfit that correlates with the condtions.
+WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather and an outfit that correlates with the condtions.
 
 * Ruby version 2.6.5
 
