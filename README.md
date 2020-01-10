@@ -3,7 +3,7 @@
 
 http://whetherio.herokuapp.com/
 
-WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather and an outfit that correlates with the condtions.
+WhetherIO is a site designed to allow a user to sign-in/up and see the days wheather and an outfit that correlates with the condtions. The UI of the site is designed specifically with a computers browser in mind. It is not currently optimized for smaller screens. Thanks for stopping by!
 
 * Ruby version 2.6.5
 
@@ -16,6 +16,8 @@ WhetherIO is a site designed to allow a user to sign-in/up and see the days whea
 * Database postgresQL
 
 * Faraday GEM for API calls
+
+* Geocoder GEM for latitude and longitude information.
 
 * make_it_so GEM for ruby/react on rails framework
 
