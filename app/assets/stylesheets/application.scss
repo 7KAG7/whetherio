@@ -41,8 +41,7 @@
   width: 100%;
   float: left;
   padding: none;
-  position:absolute;
-  z-index: -1;
+  position: fixed;
 }
 
 .city_box {
@@ -69,7 +68,7 @@
 body {
   height: auto;
   width: auto;
-  background-color: #4a4945;
+  background-color: #303331;
 }
 
 #index-title {
@@ -81,7 +80,7 @@ body {
   z-index: 2;
 }
 .current_box {
-  height: 520px;
+  height: 600px;
   width: 400px;
   border-radius: 8px;
   -moz-box-shadow:    inset 0 0 10px #000000;
@@ -142,6 +141,7 @@ body {
   height: 100px;
   color: #999421;
   background-color: #303331;
+  position: sticky;
 }
 
 #logs {
