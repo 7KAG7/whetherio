@@ -78,6 +78,7 @@ body {
 }
 .index-boxes {
   z-index: 2;
+  padding-top: 100px;
 }
 .current_box {
   height: 600px;
@@ -141,7 +142,8 @@ body {
   height: 100px;
   color: #999421;
   background-color: #303331;
-  position: sticky;
+  position: fixed;
+  z-index: 3;
 }
 
 #logs {
