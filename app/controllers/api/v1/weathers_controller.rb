@@ -12,8 +12,9 @@ class Api::V1::WeathersController < ApplicationController
     elsif Rails.env.production?
       puts "IN CONTROLLER"
       puts request
-      puts request.location
-      puts request.keys
+      puts request.address
+      puts request.city
+      puts request.state
       results = Geocoder.search(request.location)
       latitude = results.first.coordinates[0].round(4)
       longitude = results.first.coordinates[1].round(4)
