@@ -10,6 +10,7 @@ class Api::V1::WeathersController < ApplicationController
       response = Faraday.get(base_url.gsub(/\s+/, ""))
       weather = JSON.parse(response.body)
     elsif Rails.env.production?
+      puts request.location
       results = Geocoder.search(request.location)
       latitude = results.first.coordinates[0].round(4)
       longitude = results.first.coordinates[1].round(4)
