@@ -42,8 +42,8 @@ const SearchBarComponent = props => {
       </label>
 
       <div className="button-group">
-        <button className="button">Clear</button>
-        <input className="button" type="submit" value="Submit" />
+        <button className="button" id="clear-button">Clear</button>
+        <input className="button" id="submit-button" type="submit" value="Submit" />
       </div>
     </form>
   )
