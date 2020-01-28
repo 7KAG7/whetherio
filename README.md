@@ -52,9 +52,16 @@ bundle exec rake db:create
 bundle exec rake db:migrate
 ```
 
-Once that is finished start running the servers!
+Once that is finished start running the servers! In two seperate terminal windows navigate to the file you cloned. Once there in one terminal tab enter:
+
+```
+rails s
+```
+In the other run:
 
 ```
 rails s
 yarn start
 ```
+Then in your browser navigate to http://localhost:3000/
+
