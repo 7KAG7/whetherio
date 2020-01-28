@@ -32,7 +32,7 @@ WhetherIO is a site designed to allow a user to sign-in/up and see the days whea
   ```
   from the CLI, in your env file you must add your own DARK_SKY_KEY=YOUR DARK SKY API KEY
   
-* Additionally from the ./config/initializers/geocoder.rb file you must add your own google api to the api_key in the following format api_key: :xxxxxxxxxxxxxxx
+* Additionally from the ./config/initializers/geocoder.rb file you must add your own google api to the api_key in the following format api_key: :YOUR GOOGLE API KEY
 
 * Codepen is used for continuous integration monitoring
 
