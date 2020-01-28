@@ -7,16 +7,16 @@ const WeatherBoxContainer = props => {
     <div>
       <div id="current-weather-box">
         <h2>Todays Weather for:
-          <h3>{props.location}</h3>
+          <p>{props.location}</p>
         </h2>
         <h2>Current Condtions:
-          <h3>{props.temperature}°F & {props.summary}</h3>
+          <p>{props.temperature}°F & {props.summary}</p>
         </h2>
         <h2>Today:
-          <h3>{props.hourlysum}</h3>
+          <p>{props.hourlysum}</p>
         </h2>
         <h2>This week:
-          <h3>{props.future}</h3>
+          <p>{props.future}</p>
         </h2>
       </div>
     </div>
