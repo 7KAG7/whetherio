@@ -60,7 +60,6 @@ rails s
 In the other run:
 
 ```
-rails s
 yarn start
 ```
 Then in your browser navigate to http://localhost:3000/
