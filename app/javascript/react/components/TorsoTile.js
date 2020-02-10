@@ -267,8 +267,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
@@ -282,8 +282,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
@@ -297,8 +297,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
@@ -312,8 +312,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
@@ -327,8 +327,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
@@ -342,8 +342,8 @@ const TorsoTile = props => {
       if (props.user) {
         if (props.user.gender === "female") {
           (torso = <div>
-                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078WGCNNG/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li2&tag=whetherio-20&linkId=94d3bf954b9578ae13e915c1f7c9cb46&language=en_US" target="_blank">
-                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078WGCNNG&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
+                    <a href="https://www.amazon.com/North-Face-Womens-Resolve-Insulated/dp/B078YDMT7M/ref=as_li_ss_il?dchild=1&keywords=patagonia+waterproof+jacket+for+women+insulated&qid=1575932808&sr=8-5&th=1&linkCode=li1&tag=whetherio-20&linkId=e8c889ca456b9a2839c27818d7af115c&language=en_US" target="_blank">
+                    <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078YDMT7M&Format=_SL110_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=whetherio-20&language=en_US" />
                     </a>
                    </div>)
         }
