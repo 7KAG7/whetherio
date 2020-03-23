@@ -10,7 +10,7 @@ class Api::V1::WeathersController < ApplicationController
       response = Faraday.get(base_url.gsub(/\s+/, ""))
       weather = JSON.parse(response.body)
     else
-      results = Geocoder.search("Boston")
+      results = Geocoder.search("01519")
       latitude = results.first.coordinates[0].round(4)
       longitude = results.first.coordinates[1].round(4)
       base_url = "https://api.darksky.net/forecast/#{ENV["DARK_SKY_KEY"]}/#{latitude}, #{longitude}"
@@ -25,5 +25,4 @@ class Api::V1::WeathersController < ApplicationController
       user: current_user
     }
   end
-
 end
