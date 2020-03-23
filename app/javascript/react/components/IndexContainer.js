@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react"
 import WeatherBoxContainer from "./WeatherBoxContainer"
+import HourlyBoxContainer from "./HourlyBoxContainer"
+import MapsBoxContainer from "./MapsBoxContainer"
 import BodyBoxContainer from './BodyBoxContainer'
 import SearchBarComponent from './SearchBarComponent'
 import BackgroundContainer from './BackgroundContainer'
@@ -10,7 +12,9 @@ const IndexContainer = props => {
   const [currentLocation, setCurrentLocation] = useState ("")
   const [currentDailyWeather, setCurrentDailyWeather] = useState ("")
   const [currentHourlyWeather, setCurrentHourlyWeather] = useState ("")
+  const [currentHoursHourlyWeather, setCurrentHoursHourlyWeather] = useState ("")
   const [user, setUser] = useState (null)
+  const [currentMaps, setCurrentMaps] = useState ("")
 
   useEffect(() => {
     fetch(`api/v1/weathers`)
@@ -30,6 +34,7 @@ const IndexContainer = props => {
         setCurrentWeather(body.weather.currently)
         setCurrentDailyWeather(body.weather.daily)
         setCurrentHourlyWeather(body.weather.hourly)
+        setCurrentHoursHourlyWeather(body.weather.hourly.data[1])
         setCurrentLocation(body.results[0].data.formatted_address)
       })
       .catch(error => console.error(`Error in fetch: ${error.message}`));
@@ -54,11 +59,11 @@ const IndexContainer = props => {
       setCurrentWeather(body.weather.currently)
       setCurrentDailyWeather(body.weather.daily)
       setCurrentHourlyWeather(body.weather.hourly)
+      setCurrentHoursHourlyWeather(body.weather.hourly.data[1])
       setCurrentLocation(body.results[0].data.formatted_address)
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`));
   }
-
 
   return (
     <div>
@@ -70,10 +75,19 @@ const IndexContainer = props => {
         />
       </div>
       <div className="index-boxes grid-x grid-margin-x align-center large-6 medium-8 small-8">
+        <div className="hourly_box" style={{zIndex:2}}>
+          <HourlyBoxContainer
+          key={currentHoursHourlyWeather.id}
+          timeStamp={currentHoursHourlyWeather.time}
+          currentTemp={currentWeather.temperature}
+          currentTime={currentWeather.time}
+          temperature={currentHoursHourlyWeather.temperature}
+          />
+        </div>
         <div className="city_box" style={{zIndex:2}}>
-        <SearchBarComponent
-          getWeather={getWeather}
-        />
+          <SearchBarComponent
+            getWeather={getWeather}
+          />
         </div>
         <div className="current_box" style={{zIndex:2}}>
           <WeatherBoxContainer
@@ -100,7 +114,6 @@ const IndexContainer = props => {
           />
         </div>
       </div>
-      <h6 id="dark_sky">https://darksky.net/poweredby/</h6>
     </div>
   )
 }
