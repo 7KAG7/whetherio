@@ -12,7 +12,13 @@ const IndexContainer = props => {
   const [currentLocation, setCurrentLocation] = useState ("")
   const [currentDailyWeather, setCurrentDailyWeather] = useState ("")
   const [currentHourlyWeather, setCurrentHourlyWeather] = useState ("")
-  const [currentHoursHourlyWeather, setCurrentHoursHourlyWeather] = useState ("")
+  const [currentHourZeroWeather, setCurrentHourZeroWeather] = useState ("")
+  const [currentHourOneWeather, setCurrentHourOneWeather] = useState ("")
+  const [currentHourTwoWeather, setCurrentHourTwoWeather] = useState ("")
+  const [currentHourThreeWeather, setCurrentHourThreeWeather] = useState ("")
+  const [currentHourFourWeather, setCurrentHourFourWeather] = useState ("")
+  const [currentHourFiveWeather, setCurrentHourFiveWeather] = useState ("")
+  const [currentHourSixWeather, setCurrentHourSixWeather] = useState ("")
   const [user, setUser] = useState (null)
   const [currentMaps, setCurrentMaps] = useState ("")
 
@@ -34,7 +40,13 @@ const IndexContainer = props => {
         setCurrentWeather(body.weather.currently)
         setCurrentDailyWeather(body.weather.daily)
         setCurrentHourlyWeather(body.weather.hourly)
-        setCurrentHoursHourlyWeather(body.weather.hourly.data[1])
+        setCurrentHourZeroWeather(body.weather.hourly.data[0])
+        setCurrentHourOneWeather(body.weather.hourly.data[1])
+        setCurrentHourTwoWeather(body.weather.hourly.data[2])
+        setCurrentHourThreeWeather(body.weather.hourly.data[3])
+        setCurrentHourFourWeather(body.weather.hourly.data[4])
+        setCurrentHourFiveWeather(body.weather.hourly.data[5])
+        setCurrentHourSixWeather(body.weather.hourly.data[6])
         setCurrentLocation(body.results[0].data.formatted_address)
       })
       .catch(error => console.error(`Error in fetch: ${error.message}`));
@@ -59,7 +71,13 @@ const IndexContainer = props => {
       setCurrentWeather(body.weather.currently)
       setCurrentDailyWeather(body.weather.daily)
       setCurrentHourlyWeather(body.weather.hourly)
-      setCurrentHoursHourlyWeather(body.weather.hourly.data[1])
+      setCurrentHourZeroWeather(body.weather.hourly.data[0])
+      setCurrentHourOneWeather(body.weather.hourly.data[1])
+      setCurrentHourTwoWeather(body.weather.hourly.data[2])
+      setCurrentHourThreeWeather(body.weather.hourly.data[3])
+      setCurrentHourFourWeather(body.weather.hourly.data[4])
+      setCurrentHourFiveWeather(body.weather.hourly.data[5])
+      setCurrentHourSixWeather(body.weather.hourly.data[6])
       setCurrentLocation(body.results[0].data.formatted_address)
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`));
@@ -77,11 +95,27 @@ const IndexContainer = props => {
       <div className="index-boxes grid-x grid-margin-x align-center large-6 medium-8 small-8">
         <div className="hourly_box" style={{zIndex:2}}>
           <HourlyBoxContainer
-          key={currentHoursHourlyWeather.id}
-          timeStamp={currentHoursHourlyWeather.time}
-          currentTemp={currentWeather.temperature}
-          currentTime={currentWeather.time}
-          temperature={currentHoursHourlyWeather.temperature}
+          keyZero={currentHourZeroWeather.id}
+          timeStampZero={currentHourZeroWeather.time}
+          temperatureZero={currentHourZeroWeather.temperature}
+          keyOne={currentHourOneWeather.id}
+          timeStampOne={currentHourOneWeather.time}
+          temperatureOne={currentHourOneWeather.temperature}
+          keyTwo={currentHourTwoWeather.id}
+          timeStampTwo={currentHourTwoWeather.time}
+          temperatureTwo={currentHourTwoWeather.temperature}
+          keyThree={currentHourThreeWeather.id}
+          timeStampThree={currentHourThreeWeather.time}
+          temperatureThree={currentHourThreeWeather.temperature}
+          keyFour={currentHourFourWeather.id}
+          timeStampFour={currentHourFourWeather.time}
+          temperatureFour={currentHourFourWeather.temperature}
+          keyFive={currentHourFiveWeather.id}
+          timeStampFive={currentHourFiveWeather.time}
+          temperatureFive={currentHourFiveWeather.temperature}
+          keySix={currentHourSixWeather.id}
+          timeStampSix={currentHourSixWeather.time}
+          temperatureSix={currentHourSixWeather.temperature}
           />
         </div>
         <div className="city_box" style={{zIndex:2}}>
