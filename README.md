@@ -63,5 +63,3 @@ In the other run:
 yarn start
 ```
 Then in your browser navigate to http://localhost:3000/
-
-test
