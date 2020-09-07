@@ -11,7 +11,7 @@ WhetherIO is a site designed to allow a user to sign-in/up and see the days whea
 
 * Rails 5.2.3
 
-* Devise for users sign up 
+* Devise for users sign up
 
 * Database postgresQL
 
@@ -25,27 +25,27 @@ WhetherIO is a site designed to allow a user to sign-in/up and see the days whea
 
 * DarkSky API
   This gem provides a wrapper around the Dark Sky API for retrieving and analyzing past and current weather forecasts. In order   to use this gem, you'll need to register for an account on Dark Sky so that you can get an API key to make requests with. The   account is free, and your first 1,000 calls per day are also free. After that, you'll be billed for each subsequent call. See   the Dark Sky FAQ for more details.
-  
+
   You must run
   ```
   atom .env
   ```
   from the CLI, in your env file you must add your own DARK_SKY_KEY=YOUR DARK SKY API KEY
-  
+
 * Additionally from the ./config/initializers/geocoder.rb file you must add your own google api to the api_key in the following format api_key: :YOUR GOOGLE API KEY
 
 * Codepen is used for continuous integration monitoring
 
 ## Run Locally
 
-Git Clone the repo and run both commands in your terminal: 
+Git Clone the repo and run both commands in your terminal:
 
 ```
 bundle install
 yarn install
 ```
 
-After that create your database by: 
+After that create your database by:
 
 ```
 bundle exec rake db:create
@@ -64,3 +64,4 @@ yarn start
 ```
 Then in your browser navigate to http://localhost:3000/
 
+test
